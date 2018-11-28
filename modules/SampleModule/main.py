@@ -81,7 +81,7 @@ def main(protocol):
             GPIO.output(18, GPIO.HIGH)
             sleep(1)
             GPIO.output(18, GPIO.LOW)
-            sleep(5)
+            sleep(1)
         """from time import sleep
         led = LED(17)
         while True:
