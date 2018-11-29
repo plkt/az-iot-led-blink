@@ -9,10 +9,10 @@
             "minDockerVersion": "v1.25",
             "loggingOptions": "",
             "registryCredentials": {
-              "iotprivate": {
-                "username": "$CONTAINER_REGISTRY_USERNAME_iotprivate",
-                "password": "$CONTAINER_REGISTRY_PASSWORD_iotprivate",
-                "address": "iotprivate.azurecr.io"
+              "YourACR": {
+                "username": "${ACR_USER}",
+                "password": "${ACR_PASS}",
+                "address": "${DEVOPS_IOTEDGE_REGISTRY_URL}"
               }
             }
           }
