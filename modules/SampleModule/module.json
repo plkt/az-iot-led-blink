@@ -2,7 +2,7 @@
     "$schema-version": "0.0.1",
     "description": "",
     "image": {
-        "repository": "iotprivate.azurecr.io/samplemodule",
+        "repository": "${DEVOPS_IOTEDGE_REGISTRY_URL}/samplemodule",
         "tag": {
             "version": "0.0.15",
             "platforms": {
